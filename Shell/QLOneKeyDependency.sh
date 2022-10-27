@@ -50,7 +50,7 @@ pnpm add -g pnpm
 
 pnpm install -g
 
-npm install -g npm png-js date-fns axios crypto-js ts-md5 tslib @types/node requests tough-cookie jsdom download tunnel fs ws form-data
+npm install -g npm tunnel@0.0.6 jsdom@20.0.0 sync-request@6.1.0 https-proxy-agent@5.0.1 crypto-js@4.1.1 http-proxy-agent@5.0.0 xmldom@0.6.0 qs@6.10.3 moment@2.29.1 @babel/parser@7.18.11 sablejs@1.0.8 got@11.8.2 readline-sync@1.4.10 bytenode@1.3.6 tough-cookie@4.0.0 axios@0.22.0 node-rsa@1.1.1 socks-proxy-agent@6.2.0 urlencode@1.1.0 websocket@1.0.30 xpath@0.0.32 babel@6.23.0
 
 pnpm install -g js-base64 qrcode-terminal silly-datetime
 
