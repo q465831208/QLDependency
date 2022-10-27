@@ -19,67 +19,26 @@ A timed task management panel that supports typescript, javaScript, python3, and
 
 
 # 青龙全依赖一键安装脚本 部署文档
+
 进入青龙
 ```bash
+
 docker exec -it qinglong bash
+
 ```
 毛毛脚本依赖
 ```bash
+
 curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/q465831208/QLDependency/main/Shell/MaoMao.sh | sh
+
 ```
 JD脚本依赖
 ```bash
+
 curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/q465831208/QLDependency/main/Shell/JD.sh | sh
-```
-新版本的青龙(2.10.2+ )，在运行脚本的时候，经常出现
-
-```bash
-
-“ Cannot find module 'xxxx' ” 
-
-or
-
-“ 'xxxx' module not found ” 
 
 ```
 
-的报错问题 ，原因就是缺少 xxxx 模块，mudole的名字就是报错的 xxxx。
-
-为解决新版本依赖问题，可以在安装时直接一键部署全部所需的依赖，以免后患：
-
-
-
-
-一键安装单独青龙的依赖
-国内版：
-
-
-```bash
-
-docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/FlechazoPh/QLDependency/main/Shell/QLOneKeyDependency.sh | sh)"
-
-```
-
-
-
-
-
-国外版：
-
-```bash
-
-docker exec -it qinglong bash -c "$(curl -fsSL https://raw.githubusercontent.com/FlechazoPh/QLDependency/main/Shell/QLOneKeyDependency.sh | sh)"
-
-```
-
-
-**【更新】** 版本号 2.12+ 的新版本青龙安装失败请尝试：
-
-```bash
-
-docker exec -it qinglong bash -c "$(curl -fsSL https://raw.githubusercontent.com/FlechazoPh/QLDependency/main/Shell/XinQLOneKey.sh | sh)"
-
-```
 
 
 ## 具体执行方法：
