@@ -56,9 +56,9 @@ pnpm install -g js-base64 qrcode-terminal silly-datetime
 
 pip3 install requests
 
-cd /ql/data/scripts/ && apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && npm i && npm i -S ts-node typescript @types/node date-fns axios png-js canvas --build-from-source
+cd /ql/scripts/ && apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && npm i && npm i -S ts-node typescript @types/node date-fns axios png-js canvas --build-from-source
 cd /ql
-apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && cd /ql/data/scripts/ && npm install canvas --build-from-source
+apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && cd scripts && npm install canvas --build-from-source
 cd /ql
 apk add python3 zlib-dev gcc jpeg-dev python3-dev musl-dev freetype-dev
 
