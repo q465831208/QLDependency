@@ -48,6 +48,20 @@ TIME l "安装依赖md5"
 npm install -g md5
 TIME l "安装依赖ts-md5"
 npm install -g ts-md5
+TIME l "安装依赖ds"
+npm install -g ds
+TIME l "安装依赖json5"
+npm install -g json5
+TIME l "安装依赖require"
+npm install -g require
+TIME l "安装依赖dotenv"
+npm install -g dotenv
+TIME l "安装依赖ws@7.4.3"
+npm install -g ws@7.4.3
+TIME l "安装依赖jsdom -g"
+npm install -g jsdom -g
+TIME l "安装依赖split"
+npm install -g split
 TIME l "安装依赖tslib"
 npm install -g tslib
 TIME l "安装依赖@types/node"
