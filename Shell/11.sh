@@ -30,7 +30,20 @@ latest_ver="$(wget -qO- -t1 -T2 "https://api.github.com/repos/npm/cli/releases/l
 npm install -g npm
 TIME l "升级npm至${latest_ver}"
 npm install -g npm@${latest_ver} --force
+TIME l "安装yarn"
+npm install -g yarn --force
+npm install -g npm tunnel@0.0.6 jsdom@20.0.0 sync-request@6.1.0 https-proxy-agent@5.0.1 crypto-js@4.1.1 http-proxy-agent@5.0.0 xmldom@0.6.0 qs@6.10.3 moment@2.29.1 @babel/parser@7.18.11 sablejs@1.0.8 got@11.8.2 readline-sync@1.4.10 bytenode@1.3.6 tough-cookie@4.0.0 axios@0.22.0 node-rsa@1.1.1 socks-proxy-agent@6.2.0 urlencode@1.1.0 websocket@1.0.30 xpath@0.0.32 babel@6.23.0
 
+pnpm install -g js-base64 qrcode-terminal silly-datetime
+
+pip3 install requests
+cd /ql/scripts/ && apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && npm i && npm i -S ts-node typescript @types/node date-fns axios png-js canvas --build-from-source
+cd /ql
+apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && cd scripts && npm install canvas --build-from-source
+cd /ql
+TIME l "安装python3"
+apk add python3 zlib-dev gcc jpeg-dev python3-dev musl-dev freetype-dev
+cd /ql
 echo
 TIME g "依赖安装完毕..."
 echo
