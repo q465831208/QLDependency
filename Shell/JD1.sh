@@ -35,7 +35,7 @@ npm install -g yarn --force
 TIME l "安装依赖date-fns"
 yarn add date-fns
 TIME l "安装依赖axios"
-yarn add axios@v0.27.2
+yarn add axios
 TIME l "安装依赖ts-node"
 yarn add ts-node
 TIME l "安装依赖typescript"
