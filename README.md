@@ -29,13 +29,13 @@ docker exec -it qinglong bash
 毛毛脚本依赖
 ```bash
 
-curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/q465831208/QLDependency/main/Shell/MaoMao.sh | sh
+curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/q465831208/QLDependency/main/Shell/MaoMao1.sh | sh
 
 ```
 JD脚本依赖
 ```bash
 
-curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/q465831208/QLDependency/main/Shell/JD.sh | sh
+curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/q465831208/QLDependency/main/Shell/JD1.sh | sh
 
 ```
 
