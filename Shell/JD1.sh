@@ -46,6 +46,8 @@ TIME l "安装依赖crypto-js"
 npm install -g crypto-js
 TIME l "安装依赖md5"
 npm install -g md5
+TIME l "安装依赖cheerio"
+npm install -g cheerio
 TIME l "安装依赖ts-md5"
 npm install -g ts-md5
 TIME l "安装依赖ds"
